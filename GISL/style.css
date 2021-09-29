@@ -1,0 +1,33 @@
+img{
+    display:flex;
+    width:200px;
+    height:auto;
+    /* filter: blur(1px); */
+    /* -webkit-filter: blur(5px); */
+    /* -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px); */
+}
+body{
+    background-color:antiquewhite;
+}
+canvas{
+    max-width: 90vmin;
+    max-height: height 90vmin;
+    border:1px solid red;
+}
+.container{
+    display:block;
+    width:auto;
+    height:auto;
+}
+.container :hover .grow {
+    transition-delay: 200ms;
+  }
+.container:hover {
+    /* transition: all .2s ease-in-out; */
+    /* transform: scale(1.1);  */
+    transform: translateY(-20px);
+
+
+}
